@@ -1,0 +1,45 @@
+CONTACT INFO:
+
+Jordan Brown
+jbrown94@u.rochester.edu
+CSC 172 FALL 2015
+Assignment: PROJECT 3
+
+LAB Synopsis:
+
+This project was on implementing our own hash table and function, and then solving a word puzzle in fast runtime.
+
+Some obstacles were creating a good hash function, but the textbook provided a detailed explanation on how to implement one.
+Another obstacle was extracting the characters from the different orientations, it was difficult to generate all 
+the different possible combinations.   
+
+HashTable class contains methods and constructor to create a hash table. Hash function was created by using the course text
+as a guide to make a "good" hash function. DoubleNode, DoublyLinkedList, MyDoublyLinkedList, MyQueue, and Queue class
+were used to create a queue for use in program. 
+
+WordFinder class contains a main method and helper method to test my implementation of solving the word puzzle.  
+
+
+GENERAL INSTRUCTIONS ON COMPILING AND RUNNING CODE:
+
+1. Move project file to Desktop
+2. Open Command Prompt window
+3. Enter cd <Desktop> 
+4. Enter cd <Lab file name> 
+5. Enter cd src
+5. Enter javac *.java 
+6. Enter java <ClassName> <word list file location> <puzzle file location> <found words file location>
+
+Do not include angle brackets
+
+EXAMPLE INSTRUCTIONS FOR EACH PART:
+
+1. Move zip project file to Desktop
+2. Extract all files from zip project file
+3. Open Command Prompt window
+4. Enter cd Desktop 
+5. Enter cd Project3
+6. Enter cd src
+7. Enter javac *.java
+8. Enter java Test linux.words input10x10.txt foundwords.txt
+	... <output> ...

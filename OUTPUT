@@ -1,0 +1,30 @@
+CONTACT INFO:
+
+Jordan Brown
+jbrown94@u.rochester.edu
+CSC 172 FALL 2015
+Project 3
+
+COMPILE AND RUN OUTPUT DIRECTLY FROM COMMAND LINE:
+
+C:\Users\Jordan>cd Desktop
+
+C:\Users\Jordan\Desktop>cd project3
+
+C:\Users\Jordan\Desktop\project3>cd WordPuzzle
+
+C:\Users\Jordan\Desktop\project3\WordPuzzle>cd src
+
+C:\Users\Jordan\Desktop\project3\WordPuzzle\src>javac *.java
+
+C:\Users\Jordan\Desktop\project3\WordPuzzle\src>java WordFinder C:\Users\Jordan\
+Desktop\linux.words C:\Users\Jordan\Desktop\input10x10.txt C:\Users\Jordan\Deskt
+op\foundwords.txt
+
+
+C:\Users\Jordan\Desktop\project3\WordPuzzle\src>FC C:\Users\Jordan\Desktop\found
+words.txt C:\Users\Jordan\Desktop\output10x10.txt
+Comparing files C:\USERS\JORDAN\DESKTOP\foundwords.txt and C:\USERS\JORDAN\DESKT
+OP\OUTPUT10X10.TXT
+FC: no differences encountered
+
